@@ -3,6 +3,6 @@
 
 def hello():
     """Super doc func."""
-    print("Goodbye")
+    print("Hello world!")
 
 hello()
