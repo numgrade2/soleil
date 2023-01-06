@@ -2,6 +2,7 @@
 
 
 def ask_name():
+    """Super doc for ask name."""
     name = input("What's your name? ")
     return name
 
