@@ -1,6 +1,11 @@
 """Super doc."""
 
 
+def ask_name():
+    name = input("What's your name? ")
+    return name
+
+
 def hello(name=None):
     """Super doc func."""
     if name:
@@ -15,6 +20,6 @@ def goodbye():
     
 
 if __name__ == "__main__":
-    name = input("What's your name? ")
+    name = ask_name()
     hello(name)
     goodbye()
