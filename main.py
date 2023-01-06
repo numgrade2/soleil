@@ -4,7 +4,7 @@
 def hello(name=None):
     """Super doc func."""
     if name:
-        print("Hello {name}.")
+        print(f"Hello {name}.")
     else:
         print("Hello!")
 
@@ -15,5 +15,6 @@ def goodbye():
     
 
 if __name__ == "__main__":
-    hello()
+    name = input("What's your name? ")
+    hello(name)
     goodbye()
