@@ -14,6 +14,11 @@ def hello(name=None):
     else:
         print("Hello!")
 
+        
+def goodnight():
+    """Doc."""
+    print("Good night!")
+       
 
 def goodbye():
     """Super doc."""
