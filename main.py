@@ -15,6 +15,11 @@ def hello(name=None):
         print("Hello!")
 
 
+def goodnight():
+    """Really nice doc."""
+    print("Have a good night.")
+
+
 def goodbye():
     """Super doc."""
     print("Goodbye")
