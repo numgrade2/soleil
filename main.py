@@ -1,9 +1,12 @@
 """Super doc."""
 
 
-def hello():
+def hello(name=None):
     """Super doc func."""
-    print("Hello")
+    if name:
+        print("Hello {name}.")
+    else:
+        print("Hello!")
 
 
 def goodbye():
@@ -11,5 +14,6 @@ def goodbye():
     print("Goodbye")
     
 
-hello()
-goodbye()
+if __name__ == "__main__":
+    hello()
+    goodbye()
